@@ -5640,7 +5640,8 @@ Hero-6 Animation
 }
 
 .primary-bg {
-  background: var(--clr-background-primary);
+  background: black;
+  /* background: var(--clr-background-primary); */
 }
 
 .alice-blue-bg {
@@ -7063,8 +7064,9 @@ body {
 
 .brand-testimonial-item {
   padding: 40px 40px 35px;
-  background: #242424;
+  background: #fff;
   border-radius: 6px;
+  /* border: 1px solid #414141; */
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
   (max-width: 450px) {
@@ -7078,17 +7080,18 @@ body {
 }
 
 .brand-testimonial-content > p {
-  color: #d9d9d9;
+  color: #414141;
   margin-bottom: 30px;
+  height: 140px;
 }
 
 .testimonial-author h4 {
-  color: var(--clr-common-white);
+  color: #414141;
   font-size: 20px;
   font-weight: 500;
 }
 .testimonial-author p {
-  color: #848484;
+  color: #414141;
   margin-bottom: 0;
 }
 
@@ -17965,6 +17968,9 @@ label {
   }
   .prt {
     height: 70px;
+  }
+  .brand-testimonial-content > p {
+    height: 100%;
   }
 }
 .gradient {
