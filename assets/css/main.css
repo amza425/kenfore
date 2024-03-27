@@ -9158,7 +9158,8 @@ body {
   content: "";
   height: 100%;
   width: 100%;
-  background: var(--clr-theme-1);
+  /* background: var(--clr-theme-1); */
+  background: black;
   /* background-image: url("../img/branding.mp4"); */
   top: 0;
   left: 0;
